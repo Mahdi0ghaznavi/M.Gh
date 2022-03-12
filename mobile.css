@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+ 
+}
+.Site-Logo {
+    text-align: center;
+  
+    width: 100%;
+}
+
+
+.Mtn {
+    display: none;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 45px;
+}
+.p1:hover {
+    display: none;
+}
+.Tamrin-Js-Html-css{
+   
+        margin-right:20%;
+        margin-top: 50px;
+        float: right;
+        height: 220px;
+        border-color: rgb(102, 102, 102);
+        border-radius: 5px;
+        width: 70%;
+        font-size: 35px;
+        color:#fff;
+ }
+.a1 {
+    position: relative;
+    right: -95px;
+}
+.h1 {
+    width: 50%;
+}
+.h2 {
+    width: 80%;
+    margin-left: 200px;
+}
+.Logo-Img {
+    opacity: 85%;
+    width: 40%;
+    margin-top: -26px;
+    margin-left: 40px;
+}
