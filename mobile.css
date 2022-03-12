@@ -14,12 +14,16 @@ body {
 }
 
 .p1 {
+    height: 0px;
     text-align: center;
     font-size: 30px;
     margin-right: 45px;
 }
 .p1:hover {
-    display: none;
+    margin-right: 42.5px;
+   font-size: 30px;
+   transition: 0px;
+   background-color: none;
 }
 .Tamrin-Js-Html-css{
    
@@ -35,14 +39,14 @@ body {
  }
 .a1 {
     position: relative;
-    right: -95px;
+    right: -125px;
 }
 .h1 {
     width: 50%;
 }
 .h2 {
     width: 80%;
-    margin-left: 200px;
+    margin-left: 235px;
 }
 .Logo-Img {
     opacity: 85%;
