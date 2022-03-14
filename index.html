@@ -6,33 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahdi Ghaznavi-main page</title>
-    <link rel="stylesheet" href="fontiran.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width : 500px)" href="mobile.css">
-    <link rel="stylesheet" media="(min-width : 501px) and (max-width : 768px)" href="tablet.css">
-    
+    <link rel="stylesheet" href="./font/fontiran.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" media="screen and (max-width : 500px)" href="./mobile.css">
+    <link rel="stylesheet" media="(min-width : 501px) and (max-width : 768px)" href="./tablet.css">
+
 </head>
 
 <body>
     <div class="Menu">
         <div class="Site-Logo"><img src="Untitled-1.png" alt="Logo" class="Logo-Img"></div>
-        <div class="Mtn"><a href="index.html"> سایت شخصی </a></div>
         <div class="Menu-asli">
-            <ul>
-                <a href="#">
-                    <li>صفحه اصلی</li>
-                </a>
 
-                <li>
-                    <select onchange="location = this.value;" class="select1">
-                        <option class="op" value="#">تمرین ها</option>
-                        <option class="op" value="tamrin-Html.html">تمرین های html/css</option>
-                        <option class="op" value="tamrin-js.html">تمرین های JS</option>
+            <a class="main-page-mtn" href="./index.html">صفحه اصلی</a> &nbsp;&nbsp;
+            <select onchange="location = this.value;" class="select1">
+               <option class="op" value="#">تمرین ها</option>
+                <option class="op" value="./tamrin-Html.html">تمرین های html/css</option>
+                <option class="op" value="./tamrin-js.html">تمرین های JS</option>
+             </select>
 
-                    </select>
-                </li>
-            </ul>
         </div>
     </div>
     <div class="d5">
@@ -42,11 +35,11 @@
         <p class="p2">تمرین ها</p>
         <hr class="h1">
         <ul class="u1">
-            <a href="tamrin-Html.html" class="a1">
+            <a href="./tamrin-Html.html" class="a1">
                 <li>تمرین Html/Css</li>
             </a>
             <hr class="h2">
-            <a href="tamrin-js.html" class="a1">
+            <a href="./tamrin-js.html" class="a1">
                 <li>تمرین Js</li>
             </a>
         </ul>

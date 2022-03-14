@@ -1,48 +1,42 @@
-body {font-family: iransans;
-        font-weight: bold;
+body {
+    font-family: iransans;
+    font-weight: bold;
     background-color: rgb(17, 17, 82);
 }
+
 a {
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
 }
+
 .Menu {
     width: 100%;
     height: 75px;
 }
+
 .Site-Logo {
     float: right;
     margin-top: 26px;
     margin-right: 50px;
 }
 
-.Mtn {width: 10%;
-    float: right;
-    margin-top: 30px;
-    margin-right: 380px;}
-.Mtn a {
+.Menu-asli {
+    margin-top: 26px;
+    width: 22%;
+    float: left;
+}
+
+.main-page-mtn {
     color: #fff;
 }
-.Mtn a:hover {
-    color:orange;
-    transition: 500ms;
-}
-.Menu-asli {
-    margin-top:30px;
-    float: left;
-    margin-left: 50px;
-}
-.Menu-asli ul li {
-    color: #fFF;
-    float: right;
-    margin-left: 25px;
-}
-.Menu-asli ul li:hover {
+
+.main-page-mtn:hover {
     color: orange;
-    transition: 400ms;
-    text-shadow: 10px 10px 10px orange;
+    transition: 500ms;
+    text-shadow: 0px 0px 20px white;
 }
 
 .select1 {
@@ -57,22 +51,25 @@ ul {
     width: 150px;
     height: 25px;
 }
-.select1:hover{
+
+.select1:hover {
     background-color: orange;
     color: black;
-    transition:  500ms;
+    transition: 500ms;
+    box-shadow: 0px 0px 20px white;
 }
+
 .op {
     background-color: orange;
     font-family: iransans;
     font-weight: bold;
-    
-    
 }
+
 .d5 {
-   width: 100%;
-   height: 50px;
+    width: 100%;
+    height: 50px;
 }
+
 .p1 {
     text-align: center;
     font-family: iransans;
@@ -80,12 +77,10 @@ ul {
     color: GRAY;
     margin-top: 100px;
     height: 0px;
-    
-    transition: font-size 2s , background-color 5s , color 2s , border-radius 7s;
- 
+    transition: font-size 2s, background-color 5s, color 2s, border-radius 7s;
 }
+
 .p1:hover {
-   
     text-shadow: 15px 10px 15px rgb(71, 71, 70);
     color: rgb(255, 250, 250);
     font-size: 50px;
@@ -93,8 +88,9 @@ ul {
     width: 90%;
     margin-right: 5%;
     border-radius: 20px;
-    background-color: rgb(6, 80, 12);  
+    background-color: rgb(6, 80, 12);
 }
+
 .Tamrin-Js-Html-css {
     margin-right: 30%;
     margin-top: 150px;
@@ -105,48 +101,57 @@ ul {
     width: 40%;
     text-align: center;
     font-size: 35px;
-    color:#fff;
+    color: #fff;
 }
+
 .Tamrin-Js-Html-css:hover {
     box-shadow: 0px 0px 15px rgba(202, 201, 201, 0.431);
     transition: 500ms;
 }
+
 .p2 {
     margin-top: 25px;
 }
+
 .Tamrin-Js-Html-css ul li {
     font-size: 15px;
 }
 
-.h1 {margin-top: 30px;
+.h1 {
+    margin-top: 30px;
     width: 35%;
     border: none;
     height: 2px;
-    background: rgb(197, 194, 9);  
+    background: rgb(197, 194, 9);
 }
-.h2 { margin-top: 30px;
+
+.h2 {
+    margin-top: 30px;
     width: 30;
 }
+
 .a1 {
     color: #fff;
 }
-.a1:hover{
-    text-decoration: underline ;
+
+.a1:hover {
+    text-decoration: underline;
     transition: 1s;
     color: orange;
 }
+
 .u1 {
     margin-right: 210px;
-   width: 120px;
+    width: 120px;
 }
+
 .Logo-Img {
     opacity: 85%;
     width: 80%;
     margin-top: -26px;
 }
+
 .Logo-Img:hover {
     opacity: 100%;
     transition: 200ms;
-    
 }
-

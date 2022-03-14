@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahdi Ghaznavi-Tramrin-Js</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style-tamrin-js.css">
+    <link rel="stylesheet" href="./styles/js-style.css">
     <link rel="stylesheet" href="./font/fontiran.css">
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                         <option class="op" value="#">تمرین ها</option>
                         <option class="op" value="tamrin-Html.html">تمرین های html/css</option>
                         <option class="op" value="tamrin-js.html">تمرین های JS</option>
-                   
+    
                     </select>
                 </li>
             </ul>
@@ -35,19 +36,32 @@
     <div class="d5">
         <pre class="p1">وبسایت شخصی مهدی غزنوی</pre>
     </div>
-    <div class="d1">
-        <ul>
-            <a href="#" class="a1">
-                <li class="l1">تمرینی قرار نگرفته</li>
-            </a>
-            <a href="#" class="a2">
-                <li>تمرینی قرار نگرفته</li>
-            </a>
-            <a href="#" class="a3">
-                <li>تمرینی قرار نگرفته</li>
-            </a>
-        </ul>
+    <div class="m1">
+        <p id="des" id="des1" class="p2">Hi World</p>
+        <button class="btn" onclick="Mgh()">کلیک</button>
+        <script>
+            function Mgh() {
+                document.getElementById('des').innerHTML = "Welcome"
+
+            }
+        </script>
     </div>
+
+    <input type="text" id="m1" placeholder="z">
+    <input type="text" id="m2" placeholder="y">
+    <p id="pppp2"></p>
+    <button onclick="aha()">asdasd</button>
+    <script>
+        var z = m1 * 5
+        var y = m2 * 1
+
+        function aha() {
+
+            document.getElementById('pppp2').innerHTML = z, y;
+
+
+        }
+    </script>
 </body>
 
 </html>
